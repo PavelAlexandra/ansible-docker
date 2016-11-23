@@ -1,4 +1,4 @@
-docker_pkg_name: docker-engine
+docker_pkg_name: docker-engine=1.12.3-0~trusty
 kernel_pkg_state: latest
 
 # TODO

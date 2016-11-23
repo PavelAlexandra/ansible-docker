@@ -40,7 +40,7 @@
 - name: Install Docker package
   apt:
     name: "{{ docker_pkg_name }}"
-    state: latest
+    state: present
     update_cache: yes # FIXME
     cache_valid_time: 900 # FIXME
 
